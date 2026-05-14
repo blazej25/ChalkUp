@@ -28,7 +28,7 @@ void Renderer::clear() {
     SDL_RenderClear(renderer);
 }
 
-void Renderer::present() {
+void Renderer::render() {
     SDL_RenderPresent(renderer);
 }
 

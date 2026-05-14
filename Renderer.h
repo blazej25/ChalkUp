@@ -18,7 +18,7 @@ public:
     ~Renderer();
 
     void clear();
-    void present();
+    void render();
 
     SDL_Renderer* getRenderer();
 

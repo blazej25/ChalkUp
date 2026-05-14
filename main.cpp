@@ -19,7 +19,7 @@ int main() {
         // changes in frame
 
         // show frame
-        gameRenderer->present();
+        gameRenderer->render();
     }
     return 0;
 }
